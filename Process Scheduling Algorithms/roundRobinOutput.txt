@@ -1,0 +1,14 @@
+ROUND ROBIN ALGORITHM WITH PROCESS TABLE AND GANTT CHART
+PROCESS TABLE
+| P No. | Arrival Time | Burst Time | Completion Time | Turn Around Time | Waiting Time |
+|    1  |       10     |      23    |        88       |        78        |       55     |
+|    2  |       50     |      15    |       102       |        52        |       37     |
+|    3  |        0     |      34    |        97       |        97        |       63     |
+|    4  |      100     |      50    |       152       |        52        |        2     |
+|    5  |        0     |      30    |        93       |        93        |       63     |
+
+GANTT CHART
+ <0> P3 <5> | <5> P5 <10> | <10> P3 <15> | <15> P1 <20> | <20> P5 <25> | <25> P3 <30> | <30> P1 <35> | <35> P5 <40> | <40> P3 <45> | <45> P1 <50> | <50> P5 <55> | <55> P3 <60> | <60> P2 <65> | <65> P1 <70> | <70> P5 <75> | <75> P3 <80> | <80> P2 <85> | <85> P1 <88> | <88> P5 <93> | <93> P3 <97> | <97> P2 <102> | <102> P4 <107> | <107> P4 <112> | <112> P4 <117> | <117> P4 <122> | <122> P4 <127> | <127> P4 <132> | <132> P4 <137> | <137> P4 <142> | <142> P4 <147> | <147> P4 <152> |
+
+Average Turn Around time: 74.4 ms
+Average Waiting Time: 44 ms
